@@ -1,4 +1,4 @@
-# Casper
+# Wilmar Santos Casper  Mod
 
 This is the Mod of Casper default [Ghost](http://ghost.org) theme created by Wilmar Santos for [Wil Santos Blog](http://wcsantos.com).
 
