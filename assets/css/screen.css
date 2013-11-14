@@ -392,7 +392,33 @@ strong {
 		overflow: hidden;
 		border: 5px solid #fff;
 		background: #fff;
+		-moz-transition: all 0.3s ease;
+
+		/* WebKit */
+
+		-webkit-transition: all 0.3s ease;
+
+		/* Opera */
+
+		-o-transition: all 0.3s ease;
+
+		/*Standar*/
+		transition: all 0.3s ease;
+
 }
+
+#blog-logo img:hover{
+	opacity: 1;
+	/* Firefox */
+	-moz-transform: scale(2) rotate(360deg);
+	/* WebKit */
+	-webkit-transform: scale(1.2) rotate(360deg);
+	/* Opera */
+	-o-transform: scale(2) rotate(360deg);
+	/* Standard */
+	transform: scale(2) rotate(360deg);
+}
+
 
 #back {
     color: rgba(0,0,0,0.2);
