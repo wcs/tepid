@@ -826,6 +826,7 @@ strong {
         height: auto;
         min-height: 240px;
         padding: 15% 0;
+        text-shadow:0 0 5px rgba(0,0,0,0.5);
     }
 
     .blog-title {
