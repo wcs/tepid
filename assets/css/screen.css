@@ -101,7 +101,6 @@ body {
 }
 
 ::selection {
-    color: #222;
     background: rgba(244,170,105,0.2);
     text-shadow: none;
 }
@@ -237,8 +236,9 @@ code, tt {
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre;
-    border: 1px solid #E3EDF3;
-    background: #F7FAFB;
+    border: 1px solid #222;
+    background: #333;
+    color: wheat;
     border-radius: 2px;
 }
 
