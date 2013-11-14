@@ -1,4 +1,4 @@
--/* ==========================================================================
+/* ==========================================================================
    Table of Contents
    ========================================================================== */
 
@@ -89,7 +89,7 @@ body {
     max-height: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     line-height: 1.6em;
     color: #3A4145;
 }
@@ -102,7 +102,7 @@ body {
 
 ::selection {
     color: #222;
-    background: #D6EDFF;
+    background: rgba(244,170,105,0.2);
     text-shadow: none;
 }
 
@@ -151,7 +151,7 @@ a {
 }
 
 a:hover {
-    color: #57A3E8;
+    color: rgb(206,114,102);
 }
 
 h1 a, h2 a, h3 a,
@@ -183,7 +183,7 @@ blockquote {
     box-sizing: border-box;
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
-    border-left: #4a4a4a 0.4em solid;
+    border-left: #CE7266 0.4em solid;
 }
 
 blockquote p {
@@ -372,6 +372,12 @@ strong {
     color: #fff;
     background: #303538 no-repeat center center;
     background-size: cover;
+		border-bottom: 1px solid #aaa;
+		background-position: center center;
+		-moz-box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px rgba(75,50,50,0.1);
+		-webkit-box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px rgba(75,50,50,0.1);
+		box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px rgba(75,50,50,0.1);
+		opacity: 0.95;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
@@ -381,6 +387,10 @@ strong {
     width: auto;
     margin: 0 auto;
     line-height: 0;
+    border-radius: 100%;
+		overflow: hidden;
+		border: 5px solid #fff;
+		background: #fff;
 }
 
 #back {
@@ -397,6 +407,7 @@ strong {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
+    font-weight: 400;
 }
 
 .blog-description {
@@ -415,7 +426,7 @@ strong {
     max-width: 700px;
     margin: 4rem auto;
     padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: rgba(88,84,72,0.3) 1px solid;
     word-break: break-word;
     hyphens: auto;
 }
@@ -427,7 +438,7 @@ strong {
     content: "";
     width: 7px;
     height: 7px;
-    border: #E7EEF2 1px solid;
+    border: rgba(88,84,72,0.3) 1px solid;
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -460,7 +471,7 @@ strong {
     margin: 0 0 5px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    color: #9EABB3;
+    color: rgba(206,114,102,0.7);
     text-align: center;
     width:100%;
 }
@@ -555,7 +566,7 @@ strong {
 /* The author credit area after the post */
 .post-footer {
     position: relative;
-    margin: 4rem 0 0 0;
+    margin: 4rem 0 2rem 0;
     padding: 4rem 0 0 0;
     border-top: #EBF2F6 1px solid;
 }
@@ -563,28 +574,32 @@ strong {
 .post-footer h4 {
     font-size: 1.8rem;
     margin: 0;
-    font-weight:400;
+    font-weight: 400;
+}
+.post-footer h4 a {
+	  text-decoration: none;
 }
 
 .post-footer p {
     margin: 1rem 0;
     font-size: 1.4rem;
     line-height: 1.6em;
-    text-align: justify;
 }
 
 /* Create some space to the right for the share links */
 .post-footer .author {
     margin-right: 180px;
+    text-align: justify;
 }
+.post-footer .author .author-pic {
+	background-size: cover;
+	border-radius: 100%;
+	margin: 0 10px 5px 0;
+	float: left;
+	width: 100px;
+	height: 100px;
 
-.post-footer .author img {
-    max-height: 100px;
-    float: left;
-    margin: 0 10px 10px;
-    border-radius: 60px;
 }
-
 /* Drop the share links in the space to the right.
    Doing it like this means it's easier for the author bio
    to be flexible at smaller screen sizes while the share
@@ -961,8 +976,6 @@ strong {
    End of file. Media queries should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
-
-
 .clearfix:after {
     visibility: hidden;
     display: block;
