@@ -679,12 +679,12 @@ strong {
     margin: 4rem auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
-    color: #9EABB3;
+    color: rgb(206,114,102);
     text-align: center;
 }
 
 .pagination a {
-    color: #9EABB3;
+    color: #585448;
 }
 
 /* Push the previous/next links out to the left/right */
@@ -693,7 +693,7 @@ strong {
     position: absolute;
     display: inline-block;
     padding: 0 15px;
-    border: #EBF2F6 2px solid;
+    border: rgba(244,170,105,0.3) 2px solid;
     text-decoration: none;
     border-radius: 30px;
     transition: border ease 0.3s;
@@ -714,7 +714,7 @@ strong {
 
 .older-posts:hover,
 .newer-posts:hover {
-    border-color: #9EABB3;
+    border-color: #F4AA69;
 }
 
 
