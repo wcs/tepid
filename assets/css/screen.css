@@ -697,25 +697,25 @@ strong {
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin: 8rem 0 0 0;
-    padding: 4rem 0;
-    border-top: #EBF2F6 1px solid;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.7em;
-    color: #BBC7CC;
-    text-align: center;
-    background: #F7FAFB;
+	position: relative;
+	margin: 8rem 0 0 0;
+	padding: 4rem 0;
+	border-top: #CE7266 1px solid;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	line-height: 1.7em;
+	color: #585448;
+	text-align: center;
+	background: rgba(239,190,97,0.03);
 }
 
 .site-footer a {
-    color: #BBC7CC;
-    text-decoration: underline;
+	color: #CE7266;
+	text-decoration: none;
 }
 
 .site-footer a:hover {
-    color: #50585D;
+    color: #585448;
 }
 
 .poweredby .icon-ghost {
@@ -740,7 +740,7 @@ strong {
     top: -14px;
     left: 50%;
     margin-left: -15px;
-    border: #EBF2F6 1px solid;
+    border: #EFBE61 1px solid;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 50px;
@@ -750,7 +750,7 @@ strong {
 
 /* The RSS icon, inserted via icon font */
 .subscribe:before {
-    color: #D2DEE3;
+    color: #F4AA69;
     font-size: 10px;
     position: absolute;
     top: 2px;
