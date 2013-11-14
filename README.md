@@ -1,6 +1,8 @@
-# Wilmar Santos Casper  Mod
+# Tepid
 
-This is the Mod of Casper default [Ghost](http://ghost.org) theme created by Wilmar Santos for [Wil Santos Blog](http://wcsantos.com).
+Tepid is a lightweight tipography theme,with many colors in orange tone. It's a Casper (default Ghost theme) fork, so if you like Ghost there's a big chance that you will love Tepid. It's a [Ghost](http://ghost.org) theme created for my [Blog](http://wcsantos.com).
+
+I not going to use versions for this project, so maybe if you really wanna see the status of the theme, you can visit my [blog](http://wcsantos.com) and look around.
 
 ## Copyright & License
 
@@ -12,3 +14,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+font-weight
