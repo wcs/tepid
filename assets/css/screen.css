@@ -412,7 +412,7 @@ strong {
 	/* Firefox */
 	-moz-transform: scale(2) rotate(360deg);
 	/* WebKit */
-	-webkit-transform: scale(1.2) rotate(360deg);
+	-webkit-transform: scale(2) rotate(360deg);
 	/* Opera */
 	-o-transform: scale(2) rotate(360deg);
 	/* Standard */
@@ -496,6 +496,11 @@ strong {
     line-height: 1.6em;
     text-align: justify;
 }
+
+.post-excerpt .post-image p {
+    text-align: center;
+}
+
 
 .post-meta {
     display: inline-block;
