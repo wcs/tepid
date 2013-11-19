@@ -1,6 +1,6 @@
 # Tepid
 
-Tepid is a lightweight tipography theme, with many colors in orange tone. It's a Casper (default Ghost theme) fork, so if you like Ghost there's a big chance that you will love Tepid. It's a [Ghost](http://ghost.org) theme created for my [Blog](http://wcsantos.com).
+Tepid is a lightweight typography theme, with many colors in orange tone. It's a Casper (default Ghost theme) fork, so if you like Ghost there's a big chance that you will love Tepid. It's a [Ghost](http://ghost.org) theme created for my [Blog](http://wcsantos.com).
 
 I not going to use versions for this project, so maybe if you really wanna see the status of the theme, you can visit my [blog](http://wcsantos.com) and look around.
 
