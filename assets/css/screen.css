@@ -231,6 +231,17 @@ mark {
     background-color: #ffc336;
 }
 
+code, tt {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-size: 0.85em;
+    white-space: pre;
+    border: 1px solid #222;
+    background: #23241f;
+    color: #e6db74;
+    border-radius: 3px;
+}
+
 kbd {
     display: inline-block;
     margin-bottom: 0.4em;
