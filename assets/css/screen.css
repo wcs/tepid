@@ -348,13 +348,15 @@ strong {
     color: #fff;
     background: #303538 no-repeat center center;
     background-size: cover;
-		border-bottom: 1px solid #aaa;
-		background-position: center center;
-		-moz-box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px rgba(75,50,50,0.1);
-		-webkit-box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px rgba(75,50,50,0.1);
-		box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px rgba(75,50,50,0.1);
-		opacity: 0.95;
-		text-shadow:0 0 5px rgba(0,0,0,0.5);
+    border-bottom: 1px solid #aaa;
+    background-position: center center;
+    -moz-box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px 
+rgba(75,50,50,0.1);
+    -webkit-box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 
+6px rgba(75,50,50,0.1);
+    box-shadow: 0 35px 55px 10px rgba(35,25,25,0.05),0 8px 10px 6px 
+rgba(75,50,50,0.1);
+    text-shadow:0 0 5px rgba(0,0,0,0.5);
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
