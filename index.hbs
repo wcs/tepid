@@ -5,7 +5,8 @@
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header id="site-head" {{#if @blog.cover}}style="background: 
-url({{@blog.cover}}) center center fixed no-repeat;"{{/if}}>
+url({{@blog.cover}}) center center fixed no-repeat; 
+-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"{{/if}}>
     <div class="vertical">
         <div id="site-head-content" class="inner">
 
