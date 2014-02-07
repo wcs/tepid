@@ -4,10 +4,10 @@
     the {body} of the default.hbs template, which contains our header/footer. }}
 
 {{! The big featured header on the homepage, with the site logo and description }}
-<header id="site-head" {{#if @blog.cover}} style="background: url({{@blog.cover}})70% 0 no-repeat fixed; background-position:70% 0px;"{{/if}}>
+<header class="site-head" {{#if @blog.cover}} style="background: url({{@blog.cover}}) 0 no-repeat fixed; background-position:70% 0px;"{{/if}}>
     <div class="vertical">
-        <div id="site-head-content" class="inner">
-            {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+        <div class="site-head-content inner">
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
             <h2 class="blog-description">{{@blog.description}}</h2>
         </div>
@@ -19,13 +19,15 @@
 
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
+
     <article class="{{post_class}}">
         <header class="post-header">
-            <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags}}{{/if}}</span>
+            <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{tags prefix="on "}}</span>
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+
         </header>
         <section class="post-excerpt">
-            <p>{{excerpt words="120"}}&hellip;</p>
+	    <p>{{excerpt words="120"}}&hellip;</p>
         </section>
     </article>
 
@@ -35,3 +37,4 @@
     {{pagination}}
 
 </main>
+

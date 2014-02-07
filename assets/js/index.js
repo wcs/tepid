@@ -13,6 +13,9 @@
 
         //$("#blog-logo").prependTo("#site-head-content");
 
+        $(".post-content").fitVids();
+        $('.site-head').parallax("100%", 0.1);
+
     });
 
 }(jQuery));

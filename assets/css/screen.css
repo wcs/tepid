@@ -338,7 +338,7 @@ strong {
    ========================================================================== */
 
 /* Big cover image on the home page */
-#site-head {
+.site-head {
     position: relative;
     display: table;
     width: 100%;
@@ -832,7 +832,7 @@ rgba(75,50,50,0.1);
         margin-left: 0;
     }
 
-    #site-head {
+    .site-head {
         -webkit-box-sizing: border-box; 
         -moz-box-sizing: border-box;
         box-sizing: border-box; 
@@ -909,7 +909,7 @@ rgba(75,50,50,0.1);
         line-height: 1.6em;
     }
 
-    #site-head {
+    .site-head {
         padding: 10% 0;
     }
 
