@@ -360,7 +360,7 @@ rgba(75,50,50,0.1);
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
-#blog-logo img {
+.blog-logo img {
     display: block;
     max-height: 100px;
     width: auto;
@@ -385,7 +385,7 @@ rgba(75,50,50,0.1);
 
 }
 
-#blog-logo img:hover{
+.blog-logo img:hover{
 	opacity: 1;
 	/* Firefox */
 	-moz-transform: scale(1.2) rotate(360deg);
